@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #A2C1D1, #F7F7F7);
+    /* background-color: skyblue; */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    padding: 30px;
+    background-image: url('https://img.freepik.com/free-vector/sky-background_23-2147507448.jpg?uid=R128502250&ga=GA1.1.90369292.1726462336&semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: relative;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: skyblue;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
